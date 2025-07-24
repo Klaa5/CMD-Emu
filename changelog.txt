@@ -1,0 +1,40 @@
+Changelog 
+
+v1.9.7:
+- Se corrige el sp() para evitar error visual el xTerm (Linux)
+- Se añade función de borrado de directorios (RMDIR)
+- Se añadieron 2 nuevas funciones básicas (buscadorII) y (puntero_anterior_DIR)
+- Se corrigió un error en ATTRIB el cual mostraba warnings al compilar (Linux)
+- Se añade changelog al proyecto.
+
+
+v1.9.8:
+
+- Se corrige problema en MKDIR el cual permitía ingresar nombres de directorio mayores a 15 carácteres.
+- Se corrige problema en CREATEFILE el cual permitía ingresar nombres de archivos mayores a 15 carácteres.
+- Se crean dos nuevas funciones básicas, (tam_ext) y (pase).
+
+
+v2.0.1:
+
+- Se añaden dos funciones básicas, (buscar_FULL) y (acortador).
+- Se añade nueva función MOVE (inestable).
+
+
+v2.0.3:
+
+- Se añaden detector_D1() a funciones básicas.
+- Se intentó corregir bug de cadena en MOVE pero sigue sin funcionar.
+- Ahora la función MOVE está desconectada del main (NO_IMPLEMENTADA) y comentada en funciones.
+- Optimizaciones menores a detectorII().
+
+
+v2.0.5:
+
+- Se corrigen varios bugs en DELETE: deleteador() ahora borra correctamente ultimo nodo y nodo intermedio.
+- Se cambiaron las funciones buscador() y puntero_anterior() se optimizaron y ahora son recursivas.
+
+
+v2.0.5b:
+
+- Se corrige error en el cual varias funciones daban error cuando no existía un sistema.

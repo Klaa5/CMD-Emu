@@ -1,0 +1,4 @@
+#ifndef PROTOTIPOS_BASICAS_H
+#define PROTOTIPOS_BASICAS_H
+
+#endif
